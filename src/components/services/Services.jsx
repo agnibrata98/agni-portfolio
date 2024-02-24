@@ -62,28 +62,28 @@ function Services() {
             <motion.div className="box" whileHover={{backgroundColor:"lightgray",color:"black"}}>
                 <h2>Branding</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero illo dignissimos pariatur porro natus, corporis perspiciatis error necessitatibus in ad dolores rem commodi mollitia illum animi. Sed dolor cumque totam.
+                Passionate about crafting immersive digital experiences, I specialize in website development, transforming ideas into dynamic and user-friendly online platforms.With a keen eye for design and a proficiency in a range of programming languages and frameworks.
                 </p>
                 <button>Go</button>
             </motion.div>
             <motion.div className="box" whileHover={{backgroundColor:"lightgray",color:"black"}}>
-                <h2>Branding</h2>
+                <h2 style={{textAlign:"center"}}>Efficient FrontEnd & BackEnd</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, impedit! Minus modi architecto voluptates amet vero officiis debitis odit veniam blanditiis soluta! Quod nam, quo magni laborum blanditiis laboriosam aliquam?
+                    I use various animation features to make any website beautiful and attractive and also SEO friendly.Besides these I also put effort on backend development of any website.From concept to deployment, I thrive on bringing visions to life in the digital realm, creating websites that leave a lasting impact.
                 </p>
                 <button>Go</button>
             </motion.div>
             <motion.div className="box" whileHover={{backgroundColor:"lightgray",color:"black"}}>
-                <h2>Branding</h2>
+                <h2>HTML And CSS</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus neque iure minus nostrum fugiat id consectetur odit ipsa, maxime saepe omnis vero laboriosam dolorem. Adipisci placeat voluptatem dicta laboriosam quae.
+                With a solid foundation in HTML and CSS, I am adept at transforming static concepts into dynamic, visually captivating web experiences. Proficient in writing clean and semantic HTML code, I ensure the structural integrity of each project, laying a robust foundation for seamless user interactions. 
                 </p>
                 <button>Go</button>
             </motion.div>
             <motion.div className="box" whileHover={{backgroundColor:"lightgray",color:"black"}}>
-                <h2>Branding</h2>
+                <h2>Wordpress Developer</h2>
                 <p>
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem omnis laboriosam veritatis quod voluptatum velit corporis sunt reiciendis molestiae animi? Natus dolores ea pariatur totam placeat veritatis sequi. Nobis, unde.motion.
+                Proficient in WordPress and Elementor, I specialize in crafting dynamic and visually stunning websites with unparalleled ease and flexibility. With a deep understanding of WordPress's powerful CMS capabilities, I leverage its robust framework to create scalable and user-friendly digital solutions.
                 </p>
                 <button>Go</button>
             </motion.div>
