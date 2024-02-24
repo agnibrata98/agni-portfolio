@@ -58,6 +58,10 @@
             position: absolute;
             margin: auto;
             z-index: -2;
+
+            @include mobile{
+                display: none;
+              }
         }
 
         form{
