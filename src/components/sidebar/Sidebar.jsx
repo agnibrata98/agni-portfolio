@@ -28,12 +28,14 @@ function Sidebar() {
         <motion.div className="bg" variants={variants}>
             <Links/>
         </motion.div>
-        <button onClick={()=>setOpen((prev) => !prev)}>
-        <svg width="20" height="20" viewBox="0 0 23 23">
-            <motion.path strokeWidth="3" stroke="black" strokeLinecap="round" variants={{ closed: {d: "M 2 2.5 L 20 2.5"}, open:{d: "M 3 16.5 L 17 2.5"},}} />
-            <motion.path strokeWidth="3" stroke="black" strokeLinecap="round" d="M 2 9.423 L 20 9.423" variants={{closed:{opacity: 1}, open:{opacity:0},}}/>
-            <motion.path strokeWidth="3" stroke="black" strokeLinecap="round" variants={{ closed: {d: "M 2 2.5 L 20 2.5"}, open:{d: "M 3 16.5 L 17 2.5"},}} />
-        </svg>
+        <button >
+        <label class="hamburger">
+        <input type="checkbox" onChange={()=>setOpen((prev) => !prev)}/>
+            <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </label>
     </button>
         
     </motion.div>
