@@ -1,11 +1,9 @@
-import {motion} from "framer-motion"
+import React from 'react'
 
-const ToggleButton = () => {
+const Togglebutton = () => {
   return (
-    // <button onClick={()=>setOpen((prev) => !prev)}>
-        <div></div>
-    // </button> 
+    <div>Togglebutton</div>
   )
 }
 
-export default ToggleButton;
+export default Togglebutton
