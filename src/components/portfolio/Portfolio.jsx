@@ -8,6 +8,7 @@ const items = [
         title:"React Commerce",
         img:"https://images.pexels.com/photos/4275893/pexels-photo-4275893.jpeg?auto=compress&cs=tinysrgb&w=600",
         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente, velit eligendi sunt quas distinctio eius sint voluptate quasi eum. Laudantium, tempora nisi fugit rem aliquid sequi! Ea, laboriosam esse?",
+        link: "https://weather-app-blush-two-33.vercel.app/",
     },
 
     {
@@ -15,6 +16,7 @@ const items = [
         title:"Elementor Ecommerce Website",
         img:"https://images.pexels.com/photos/461956/pexels-photo-461956.jpeg?auto=compress&cs=tinysrgb&w=600",
         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente, velit eligendi sunt quas distinctio eius sint voluptate quasi eum. Laudantium, tempora nisi fugit rem aliquid sequi! Ea, laboriosam esse?",
+        link: "https://weather-app-blush-two-33.vercel.app/",
     },
 
     {
@@ -22,6 +24,7 @@ const items = [
         title:"Wordpress Website",
         img:"https://images.pexels.com/photos/10778390/pexels-photo-10778390.jpeg?auto=compress&cs=tinysrgb&w=600",
         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente, velit eligendi sunt quas distinctio eius sint voluptate quasi eum. Laudantium, tempora nisi fugit rem aliquid sequi! Ea, laboriosam esse?",
+        link: "https://weather-app-blush-two-33.vercel.app/",
     },
 
     {
@@ -29,6 +32,7 @@ const items = [
         title:"React Commerce",
         img:"https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&w=600",
         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente, velit eligendi sunt quas distinctio eius sint voluptate quasi eum. Laudantium, tempora nisi fugit rem aliquid sequi! Ea, laboriosam esse?",
+        link: "https://weather-app-blush-two-33.vercel.app/",
     },
 ];
 
@@ -45,16 +49,16 @@ const Single = ({item})=>{
     return(
         <section>
             <div className="container">
-                <div className="wrapper">
-                    <div className="imageContainer" ref = {ref}>
-                       <img src={item.img} alt="" />
+                    <div className="wrapper">
+                        <div className="imageContainer" ref = {ref}>
+                        <img src={item.img} alt="" />
+                        </div>
+                        <motion.div className="textContainer" style={{y}}>
+                            <h2>{item.title}</h2>
+                            <p>{item.desc}</p>
+                            <a href={item.link} target="blank"><button>See Demo</button></a>
+                        </motion.div>
                     </div>
-                    <motion.div className="textContainer" style={{y}}>
-                        <h2>{item.title}</h2>
-                        <p>{item.desc}</p>
-                        <button>See Demo</button>
-                    </motion.div>
-                </div>
             </div>
         </section>
     )
