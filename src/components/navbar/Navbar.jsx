@@ -12,7 +12,7 @@ function Navbar() {
                 <a href="https://www.facebook.com/profile.php?id=100009612218398&mibextid=ZbWKwL"><img src="/facebook.png" alt="..." /></a>
                 <a href="https://www.instagram.com/agnibrata98?igsh=MWkzZWUwYnJoMG1pZQ=="><img src="/instagram.png" alt="..." /></a>
                 <a href="https://www.linkedin.com/in/agnibrata-shee-0153201b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="/LinkedIn_logo.png" alt="..." style={{width:"18px",height:"18px"}} /></a>
-                <a href="#"><img src="/dribbble.png" alt="..." /></a>
+                <a href="https://github.com/agnibrata98"><img src="https://toppng.com/uploads/preview/github-logo-png-file-1165978009722qcteqm5e.png" alt="..." /></a>
             </div>
         </div>
     </div>

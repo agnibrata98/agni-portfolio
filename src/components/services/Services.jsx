@@ -60,16 +60,16 @@ function Services() {
         </motion.div>
         <motion.div className="listContainer" variants={variants}>
             <motion.div className="box" whileHover={{backgroundColor:"lightgray",color:"black"}}>
-                <h2>Branding</h2>
+                <h2>Efficient Front End Programmer</h2>
                 <p>
                 Passionate about crafting immersive digital experiences, I specialize in website development, transforming ideas into dynamic and user-friendly online platforms.With a keen eye for design and a proficiency in a range of programming languages and frameworks.
                 </p>
                 <button>Go</button>
             </motion.div>
             <motion.div className="box" whileHover={{backgroundColor:"lightgray",color:"black"}}>
-                <h2 style={{textAlign:"center"}}>Efficient FrontEnd & BackEnd</h2>
+                <h2 style={{textAlign:"center"}}>Efficient And Updated Technology</h2>
                 <p>
-                    I use various animation features to make any website beautiful and attractive and also SEO friendly.Besides these I also put effort on backend development of any website.From concept to deployment, I thrive on bringing visions to life in the digital realm, creating websites that leave a lasting impact.
+                    I use various animation features to make any website beautiful and attractive and also SEO friendly. I thrive on bringing visions to life in the digital realm, creating websites that leave a lasting impact. And I also use various technology to make website more efficient.
                 </p>
                 <button>Go</button>
             </motion.div>

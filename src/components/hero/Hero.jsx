@@ -44,7 +44,7 @@ function Hero() {
         <div className="wrapper">
             <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
                 <motion.h2 variants={textVariants}>AGNI BRATA</motion.h2>
-                <motion.h1 variants={textVariants}>Web Developer and UI Designer</motion.h1>
+                <motion.h1 variants={textVariants}>Front End Developer and UI Designer</motion.h1>
                 <motion.div className="buttons" variants={textVariants}>
                     <motion.button variants={textVariants}>
                         <a href="/#portfolio">See the latest works</a>
@@ -57,10 +57,10 @@ function Hero() {
             </motion.div>
         </div>
         <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-            Web Developer And UI Designer
+            React Developer And UI Designer
         </motion.div>
         <div className="imageContainer">
-            <img src="/hero.png" alt="" />
+            <img src="/hero1img.png" alt="" />
         </div>
     </div>
   )

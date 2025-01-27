@@ -5,7 +5,7 @@ import {motion, useScroll,useSpring, useTransform} from "framer-motion"
 const items = [
     {
         id:1,
-        title:"React Commerce",
+        title:"React Weather App",
         img:"https://images.pexels.com/photos/4275893/pexels-photo-4275893.jpeg?auto=compress&cs=tinysrgb&w=600",
         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente, velit eligendi sunt quas distinctio eius sint voluptate quasi eum. Laudantium, tempora nisi fugit rem aliquid sequi! Ea, laboriosam esse?",
         link: "https://weather-app-blush-two-33.vercel.app/",
@@ -13,26 +13,26 @@ const items = [
 
     {
         id:2,
-        title:"Elementor Ecommerce Website",
-        img:"https://images.pexels.com/photos/461956/pexels-photo-461956.jpeg?auto=compress&cs=tinysrgb&w=600",
+        title:"React Crypto Coin Tracker",
+        img:"https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/6757dae0be2729b02083ba9c/screenshot_2024-12-10-06-08-38-0000.webp&fit=cover&h=500&q=40&w=800",
         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente, velit eligendi sunt quas distinctio eius sint voluptate quasi eum. Laudantium, tempora nisi fugit rem aliquid sequi! Ea, laboriosam esse?",
-        link: "https://weather-app-blush-two-33.vercel.app/",
+        link: "https://animated-swan-0a6a89.netlify.app/",
     },
 
     {
         id:3,
-        title:"Wordpress Website",
-        img:"https://images.pexels.com/photos/10778390/pexels-photo-10778390.jpeg?auto=compress&cs=tinysrgb&w=600",
+        title:"Next Js Blog App and Student Management System",
+        img:"https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/675ead3bde95580008a320b8/screenshot_2024-12-15-10-21-14-0000.webp&fit=cover&h=500&q=40&w=800",
         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente, velit eligendi sunt quas distinctio eius sint voluptate quasi eum. Laudantium, tempora nisi fugit rem aliquid sequi! Ea, laboriosam esse?",
-        link: "https://weather-app-blush-two-33.vercel.app/",
+        link: "https://blog-course.netlify.app/",
     },
 
     {
         id:4,
-        title:"React Commerce",
-        img:"https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&w=600",
+        title:"React Eccommerce Admin Panel",
+        img:"https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/6757d6713ae728b60249041a/screenshot_2024-12-10-05-49-45-0000.webp&fit=cover&h=500&q=40&w=800",
         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente, velit eligendi sunt quas distinctio eius sint voluptate quasi eum. Laudantium, tempora nisi fugit rem aliquid sequi! Ea, laboriosam esse?",
-        link: "https://weather-app-blush-two-33.vercel.app/",
+        link: "https://cheerful-tiramisu-3ed71d.netlify.app/",
     },
 ];
 
